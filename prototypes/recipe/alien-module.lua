@@ -105,14 +105,14 @@ if data.raw["item"]["alien-artifact"] ~= nil then
 	})
 end
 
--- alien-module-light-1 from alien-plate --
+-- alien-economy-light-1 from alien-plate --
 data:extend({
 	{
 		type = "recipe",
-		name = "alien-module-light-1",
+		name = "alien-economy-light-1",
 		enabled = false,
 		energy_required = 20,
-		result = "alien-module-light-1",
+		result = "alien-economy-light-1",
 		result_count = 1,
 		ingredients = {
 			{ "alien-plate", 50 }
@@ -120,65 +120,65 @@ data:extend({
 	},
 })
 
--- alien-module-light-2 --
+-- alien-economy-light-2 --
 data:extend({
 	{
 		type = "recipe",
-		name = "alien-module-light-2",
+		name = "alien-economy-light-2",
 		enabled = false,
 		energy_required = 40,
-		result = "alien-module-light-2",
+		result = "alien-economy-light-2",
 		result_count = 1,
 		ingredients = {
-			{ "alien-module-light-1", 3 },
+			{ "alien-economy-light-1", 3 },
 			{ "electronic-circuit", 20 }
 		},
 	},
 })
 
--- alien-module-light-3 --
+-- alien-economy-light-3 --
 data:extend({
 	{
 		type = "recipe",
-		name = "alien-module-light-3",
+		name = "alien-economy-light-3",
 		enabled = false,
 		energy_required = 60,
-		result = "alien-module-light-3",
+		result = "alien-economy-light-3",
 		result_count = 1,
 		ingredients = {
-			{ "alien-module-light-2", 3 },
+			{ "alien-economy-light-2", 3 },
 			{ "advanced-circuit", 20 }
 		},
 	},
 })
 
--- alien-module-light-4 --
+-- alien-economy-light-4 --
 data:extend({
 	{
 		type = "recipe",
-		name = "alien-module-light-4",
+		name = "alien-economy-light-4",
 		enabled = false,
 		energy_required = 80,
-		result = "alien-module-light-4",
+		result = "alien-economy-light-4",
 		result_count = 1,
 		ingredients = {
-			{ "alien-module-light-3", 3 },
+			{ "alien-economy-light-3", 3 },
 			{ "processing-unit", 10 }
 		},
 	},
 })
 
--- alien-module-light-5 --
+-- alien-economy-light-5 --
 data:extend({
 	{
 		type = "recipe",
-		name = "alien-module-light-5",
+		name = "alien-economy-light-5",
 		enabled = false,
 		energy_required = 100,
-		result = "alien-module-light-5",
+		result = "alien-economy-light-5",
 		result_count = 1,
 		ingredients = {
-			{ "alien-module-light-4", 3 },
+			{ "alien-economy-light-4", 3 },
 			{ "processing-unit", 20 }
 		},
 	},

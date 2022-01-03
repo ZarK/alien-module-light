@@ -1,10 +1,10 @@
 {
-  "name": "alien-module-light",
+  "name": "alien-economy-light",
   "title": "Alien Loot Economy Light",
   "version": "0.0.1",
   "author": "zark",
   "contact": "cassis.firings0d@icloud.com",
-  "homepage": "https://github.com/zark/factorio-alien-module-light",
+  "homepage": "https://github.com/ZarK/factorio-alien-module-light",
   "description": "Light version of Alien Loot Economy by sensenmann (https://mods.factorio.com/mod/alien-module) with only modules and base components.\n\nIncreases compatibility with mods like Bobs and Factorio Extended.\n\nIncludes functionality and settings from Alien Loot Economy Rampant Compatibility Fix by KilowattSquall (https://mods.factorio.com/mod/rampant-alienmodule-compat).\n\nUses same settings as Alien Loot Economy and Alien Loot Economy Rampant Compatibility Fix.\n\n Not compatible with Alien Loot Economy.",
   "factorio_version": "1.1",
   "dependencies": [

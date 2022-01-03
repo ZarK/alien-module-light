@@ -47,7 +47,7 @@ table.insert(data.raw["technology"]["advanced-material-processing"].effects,
 table.insert(data.raw["technology"]["automation"].effects,
 		{
 			type = "unlock-recipe",
-			recipe = "alien-module-light-1"
+			recipe = "alien-economy-light-1"
 		})
 
 table.insert(data.raw["technology"]["automation"].effects,
@@ -59,23 +59,23 @@ table.insert(data.raw["technology"]["automation"].effects,
 table.insert(data.raw["technology"]["automation"].effects,
 		{
 			type = "unlock-recipe",
-			recipe = "alien-module-light-2"
+			recipe = "alien-economy-light-2"
 		})
 
 table.insert(data.raw["technology"]["advanced-electronics"].effects,
 		{
 			type = "unlock-recipe",
-			recipe = "alien-module-light-3"
+			recipe = "alien-economy-light-3"
 		})
 
 table.insert(data.raw["technology"]["advanced-electronics"].effects,
 		{
 			type = "unlock-recipe",
-			recipe = "alien-module-light-4"
+			recipe = "alien-economy-light-4"
 		})
 
 table.insert(data.raw["technology"]["advanced-electronics"].effects,
 		{
 			type = "unlock-recipe",
-			recipe = "alien-module-light-5"
+			recipe = "alien-economy-light-5"
 		})

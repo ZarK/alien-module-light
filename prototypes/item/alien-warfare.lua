@@ -4,7 +4,7 @@ data:extend({
 	{
 		type = "ammo",
 		name = "alien-magazine",
-		icon = "__alien-module-light__/graphics/alien-magazine.png",
+		icon = "__alien-economy-light__/graphics/alien-magazine.png",
 		icon_size = 32,
 		ammo_type = {
 			category = "bullet",
@@ -32,7 +32,7 @@ data:extend({
 		},
 		magazine_size = 25,
 		subgroup = "warfare",
-		category = "alien-module-light",
+		category = "alien-economy-light",
 		order = "ab",
 		stack_size = 200
 	}
@@ -44,7 +44,7 @@ if (settings.startup["alien-module-hyper-ammo-enabled"].value) then
 			{
 				type = "ammo",
 				name = "alien-hyper-magazine-" .. i,
-				icon = "__alien-module-light__/graphics/alien-hyper-magazine.png",
+				icon = "__alien-economy-light__/graphics/alien-hyper-magazine.png",
 				icon_size = 64,
 				ammo_type = {
 					category = "bullet",
@@ -72,7 +72,7 @@ if (settings.startup["alien-module-hyper-ammo-enabled"].value) then
 				},
 				magazine_size = 20,
 				subgroup = "warfare",
-				category = "alien-module-light",
+				category = "alien-economy-light",
 				order = "ac",
 				stack_size = 200
 			}
@@ -84,7 +84,7 @@ data:extend({
 	{
 		type = "ammo",
 		name = "alien-ore-magazine",
-		icon = "__alien-module-light__/graphics/alien-ore-magazine.png",
+		icon = "__alien-economy-light__/graphics/alien-ore-magazine.png",
 		icon_size = 32,
 		ammo_type = {
 			category = "bullet",
@@ -111,7 +111,7 @@ data:extend({
 		},
 		magazine_size = 35,
 		subgroup = "warfare",
-		category = "alien-module-light",
+		category = "alien-economy-light",
 		order = "aa",
 		stack_size = 100
 	}
