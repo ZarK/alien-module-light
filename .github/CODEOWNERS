@@ -1,0 +1,9 @@
+* @ZarK
+
+.github/workflows/ @ZarK
+.github/CODEOWNERS @ZarK
+info.json @ZarK
+*.lua @ZarK
+prototypes/ @ZarK
+locale/ @ZarK
+.agents/ @ZarK
